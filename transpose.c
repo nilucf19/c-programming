@@ -5,6 +5,7 @@ int main() {
   printf("Enter rows and cols of mat: "); 
   int row, col;
   scanf("%d%d", &row, &col);
+  printf("Enter elements : \n");
   for(int i = 0; i < row; ++i) {
     for(int j = 0; j < col; ++j) {
       scanf("%d", &mat[i][j]);
