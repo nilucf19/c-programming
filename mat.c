@@ -3,7 +3,7 @@
 int main() {
   printf("Enter rows and cols of mat1: ");
   int row1, col1;
-  scanf("%d%d", &row, &col);
+  scanf("%d%d", &row1, &col1);
   int mat1[row1][col1];
 
   printf("Enter the elements of mat1: \n");
