@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 int main() {
-  printf("Enter rows and cols of mat1: ");
+  printf("Enter rows and cols of mat1: "); 
   int row1, col1;
   scanf("%d%d", &row1, &col1);
   int mat1[row1][col1];
-
   printf("Enter the elements of mat1: \n");
   for(int i = 0; i < row1; ++i) {
     for(int j = 0; j < col1; ++j) {
@@ -13,6 +12,7 @@ int main() {
     }
   }
 
+  printf("Enter rows and cols of mat2: ");
   int row2, col2;
   scanf("%d%d", &row2, &col2);
   int mat2[row2][col2];
