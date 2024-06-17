@@ -9,7 +9,7 @@ int main() {
   printf("Enter the elements of mat1: \n");
   for(int i = 0; i < row1; ++i) {
     for(int j = 0; j < col1; ++j) {
-      scanf("%d", &mat[i][j]);
+      scanf("%d", &mat1[i][j]);
     }
   }
 
@@ -19,7 +19,7 @@ int main() {
   printf("Enter the elements of mat2: \n");
   for(int i = 0; i < row2; ++i) {
     for(int j = 0; j < col2; ++j) {
-      scanf("%d", &mat[i][j]);
+      scanf("%d", &mat2[i][j]);
     }
   }
 
