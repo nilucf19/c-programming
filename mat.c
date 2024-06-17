@@ -1,3 +1,4 @@
+// Matrix Addition
 #include <stdio.h>
 
 int main() {
@@ -23,11 +24,16 @@ int main() {
     }
   }
 
-  // ...
+  int ans[row1][col1];
+  for(int i = 0; i < row1; ++i) {
+    for(int j = 0; j < row2; ++j) {
+      ans[i][j] = mat1[i][j] + mat2[i][j];
+    }
+  }
   
   for(int i = 0; i < row; ++i) {
     for(int j = 0; j < col; ++j) {
-      printf("%d ", mat[i][j]);
+      printf("%d ", ans[i][j]);
     }
     printf("\n");
   }
