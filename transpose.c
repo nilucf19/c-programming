@@ -11,12 +11,13 @@ int main() {
     }
   }
 
- for(int i = 0; i < ro; ++i) {
-    for(int j = 0; j < col; ++j) {
-      trans[j][i] = mat[i][j]
-    }
- }
-  
+  int trans[col][row];
+  for(int i = 0; i < row; ++i) {
+     for(int j = 0; j < col; ++j) {
+       trans[j][i] = mat[i][j]
+     }
+  }
+ 
   for(int i = 0; i < col; ++i) {
     for(int j = 0; j < row; ++j) {
       printf("%d ", trans[i][j]);
